@@ -191,7 +191,7 @@ public:
 
 			// draw the cube to the screen
 			glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
-			glDrawElements(GL_TRIANGLES, sizeof(indices)/sizeof(uint32_t), GL_UNSIGNED_INT, nullptr);
+			glDrawElements(GL_TRIANGLES, sizeof(indices)/sizeof(unsigned int), GL_UNSIGNED_INT, nullptr);
 			glfwSwapBuffers(m_window);
 
 			// get the duration of the current frame and use it as the delta time
