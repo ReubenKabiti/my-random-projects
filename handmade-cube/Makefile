@@ -1,8 +1,8 @@
 SOURCES += main.cpp
 
 all:
-	g++ $(SOURCES) -lGL -lGLEW -lglfw3 -lX11 -Wall
+	g++ $(SOURCES) -lGL -lGLEW -lglfw3 -lX11 -Wall -o build/a.out
 clean:
-	rm a.out
+	rm build/a.out
 run:
-	./a.out
+	./build/a.out
