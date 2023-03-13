@@ -205,7 +205,7 @@ int main()
 	Window window;
 	if (!window.init())
 	{
-		std::cout << "Failed to create window" << std::endl;
+		std::cerr << "Failed to create window" << std::endl;
 		return 1;
 	}
 	window.run();
