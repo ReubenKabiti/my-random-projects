@@ -26,3 +26,5 @@ You can also just
 ``` sh
 make run
 ```
+
+Note: handmade-cube is no where near a clean code project. I wrote it without considering any of the software engineering principles. Because I am not planning on updating the project in future. 
